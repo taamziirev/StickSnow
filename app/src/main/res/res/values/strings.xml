@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StickSnow3.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="categories">Categories</string>
+    <string name="map">Map</string>
+    <string name="events">Events</string>
+    <string name="other">Other</string>
+    <string name="settings">Settings</string>
+    <string name="support">Support</string>
+    <string name="about_us">About Us</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Categories"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="@string/categories" />
+    <item
+        android:id="@+id/Map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/AllEventsAndFind"
+        android:icon="@drawable/ic_baseline_event_24"
+        android:title="@string/events" />
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/Settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/Support"
+                android:icon="@drawable/ic_baseline_support_agent_24"
+                android:title="@string/support" />
+            <item
+                android:id="@+id/AboutUs"
+                android:icon="@drawable/ic_baseline_help_24"
+                android:title="@string/about_us" />
+        </menu>
+    </item>
+
+
+</menu>

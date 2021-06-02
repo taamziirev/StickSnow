@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/categories_nav"
+    app:startDestination="@id/recyclerCategories">
+    <fragment
+        android:id="@+id/recyclerCategories"
+        android:name="com.project.sticksnow30.features.categories.ui.RecyclerCategories"
+        android:label="Categories"
+        tools:layout="@layout/fragment_recycler_categories" >
+        <action
+            android:id="@+id/action_recyclerCategories2_to_recyclerCategoriesItem"
+            app:destination="@id/recyclerCategoriesItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyclerCategoriesItem"
+        android:name="com.project.sticksnow30.features.categories.ui.RecyclerCategoriesSelected"
+        android:label="Categories"
+        tools:layout="@layout/fragment_recycler_categories_selected" >
+        <action
+            android:id="@+id/action_recyclerCategoriesItem_to_recyclerCategories2"
+            app:destination="@id/recyclerCategories" />
+    </fragment>
+</navigation>

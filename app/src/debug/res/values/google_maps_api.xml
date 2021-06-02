@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=B0:1E:DD:78:41:83:7A:DD:AE:0F:D2:09:D3:4A:2E:F6:44:27:4B:6A%3Bcom.project.sticksnow
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.project.sticksnow
+
+    SHA-1 certificate fingerprint:
+    B0:1E:DD:78:41:83:7A:DD:AE:0F:D2:09:D3:4A:2E:F6:44:27:4B:6A
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAT4ueNaqB8G_XoJoBRu2ga-t0CJBgJedA</string>
+</resources>
